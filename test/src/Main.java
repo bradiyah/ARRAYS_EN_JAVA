@@ -23,10 +23,10 @@ public class Main {
         }
         System.out.println("Total de seguidores con más de 1000: " + contador);
 
-    // 3:
+        // 3:
 
-        double [] saldo_positive = {1500.50, 2000.75, 3000.00, 4500.25};
-        double [] saldo_negative = {-500.00, -750.25, -1000.50, -1250.75};
+        double[] saldo_positive = {1500.50, 2000.75, 3000.00, 4500.25};
+        double[] saldo_negative = {-500.00, -750.25, -1000.50, -1250.75};
         double total_positive = 0;
         double total_negative = 0;
         for (double saldo : saldo_positive) {
@@ -39,6 +39,37 @@ public class Main {
         System.out.println("Total saldo negativo: " + total_negative);
         System.out.println("Saldo neto: " + (total_positive + total_negative));
 
-    };
+    }
 
+    ;
+
+    //4:
+    public class Notas {
+        public static void main(String[] args) {
+            int[] notas = {7, 8, 5, 6, 9, 10, 4, 7, 8, 6, 5, 9, 7, 8, 6, 5, 10, 9, 8, 7};
+
+            for (int nota : notas) {
+                if (nota >= 5) {
+                    System.out.println("El alumno ha aprobado con una nota de: " + nota);
+                } else {
+                    System.out.println("El alumno ha suspendido con una nota de: " + nota);
+                }
+
+            }
+
+        }
+    }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
